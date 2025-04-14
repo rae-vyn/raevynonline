@@ -1,0 +1,13 @@
+---
+import "../../styles/callout.css";
+const { icon, type, backgroundColor, borderLeftColor } = Astro.props;
+---
+
+<aside class="callout-box" style={{ backgroundColor, borderLeftColor }}>
+	<div class="callout-icon-and-type">
+		{icon}
+	</div>
+	<div class="callout-content">
+		<slot />
+	</div>
+</aside>
