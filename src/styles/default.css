@@ -27,7 +27,7 @@
 html {
     background-color: #000411;
     color: #FFFFFF;
-    padding: 0 2%;
+    padding: 0 25%;
     font-family: "Lexend", serif;
     font-weight: 400;
 }
@@ -43,10 +43,11 @@ hr {
 
 hr::after {
     background: #000411;
-    content: "λ";
-    padding: 0 4px;
+    content: "∞";
+    font-size: 150%;
+    padding: 0 10px;
     position: relative;
-    top: -12px;
+    top: -19px;
 }
 
 h1, h2, h3, h4, h5, h6 {
