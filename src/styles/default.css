@@ -1,0 +1,54 @@
+@font-face {
+    font-family: "Lexend";
+    src: url('/fonts/LexendVari.ttf') format('opentype');
+}
+
+@font-face {
+    font-family: "Bluu Next Bold";
+    src: url('/fonts/BluuNext-Bold.otf') format('opentype');
+}
+
+@font-face {
+    font-family: "Propagandist";
+    src: url('/fonts/VintagePropagandist.ttf') format('opentype');
+}
+
+@font-face {
+    font-family: "Basteleur";
+    src: url('/fonts/Basteleur-Moonlight.ttf') format('opentype');
+}
+
+@font-face {
+    font-family: "Basteleur";
+    src: url('/fonts/Basteleur-Bold.ttf') format('opentype');
+    font-weight: bold;
+}
+
+html {
+    background-color: #000411;
+    color: #FFFFFF;
+    padding: 0 2%;
+    font-family: "Lexend", serif;
+    font-weight: 400;
+}
+
+hr {
+    border: none;
+    border-top: 3px solid #B398EE;
+    color: #B398EE;
+    overflow: visible;
+    text-align: center;
+    height: 5px;
+}
+
+hr::after {
+    background: #000411;
+    content: "λ";
+    padding: 0 4px;
+    position: relative;
+    top: -12px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Basteleur", serif;
+}
